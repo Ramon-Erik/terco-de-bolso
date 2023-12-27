@@ -18,14 +18,20 @@ header {
     background-image: linear-gradient(
         to right bottom, 
         rgba(0, 81, 255, 0.8),
-        rgba(15, 116, 248, 0.9));
+        rgba(15, 116, 248, 0.9)),
+    url('../assets/virgem-maria-capela.jpg');
     background-size: cover;
-    background-position: top;
+    background-position: center;
     position: relative;
+    color: white;
 }
 
 main {
     margin-top: -20vh;
     padding: 15rem 0;
+    background: #c5c5c5;
+}
 
+main section h2 {
+    text-align: center;
 }
