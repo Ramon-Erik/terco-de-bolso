@@ -35,6 +35,12 @@ main section {
     padding: 15px;
 }
 
+main article {
+    min-width: 300px;
+    max-width: 650px;
+    margin: auto;
+}
+
 main section h2 {
     text-align: center;
     line-height: normal;
