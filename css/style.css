@@ -68,3 +68,28 @@ main section.prom q {
     text-align: center; 
     font-size: 1.4rem;
 }
+
+.espaco-tabela {
+    min-width: 300px;
+    max-width: 450px;
+    margin: 10px auto;
+    background-color: #cccccc;
+}
+
+#como-rezar table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#como-rezar tr {
+    height: 50px;
+}
+
+#como-rezar td {
+    padding: 10px;
+}
+
+#como-rezar table tr:nth-child(even){
+    background-color: #adadad;
+
+}
