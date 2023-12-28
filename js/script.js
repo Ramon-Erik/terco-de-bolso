@@ -1,4 +1,4 @@
-tulos = document.querySelectorAll('.acordeon .titulo');
+titulos = document.querySelectorAll('.acordeon .titulo');
 
 titulos.forEach((titulo) => {
     titulo.addEventListener('click', function () {
