@@ -67,9 +67,29 @@ main section.prom q {
     font-size: 1.4rem;
 }
 
+.acordeon {
+    min-width: 300px;
+    max-width: 450px;
+    margin: 10px auto;
+    background-color: #cccccc;
+}
+
+.acordeon .item {
+    padding: 10px;
+}
+
+.acordeon .item p {
+    margin-bottom: 0;
+}
+
+.acordeon .item:nth-child(even) {
+    background-color: #adadad;
+}
+
 .acordeon .conteudo {
     max-height: 0;
     overflow: hidden;
+    padding: 0 5px;
     transition: max-height 0.3s ease;
 }
 
