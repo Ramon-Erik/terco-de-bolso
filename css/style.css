@@ -49,6 +49,7 @@ main section p {
 main section.prom {
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 100%;
     height: 380px;
     clip-path: polygon(0 19%, 100% 0%, 100% 80%, 0% 100%);
