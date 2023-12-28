@@ -75,7 +75,23 @@ main section.prom q {
 }
 
 .acordeon .item {
+    position: relative;
     padding: 10px;
+}
+
+.acordeon .titulo:after {
+    content: '^';
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    display: block;
+    rotate: 180deg;
+    font-weight: bolder;
+    transition: all .3s ease;
+}
+
+.acordeon .active:after {
+    transform: rotate(-180deg) translateY(5px);
 }
 
 .acordeon .item p {
