@@ -5,7 +5,7 @@
 }
 
 body {
-    padding: 20px;
+    padding: 1rem;
     font-family: sans-serif;
     line-height: 1.5rem;
 }
@@ -29,12 +29,12 @@ header {
 
 main {
     margin-top: -20vh;
-    padding: 15rem 0 2rem;
+    padding: 15rem 0 10rem;
     background: #e7e7e7;
 }
 
 main section {
-    padding: 15px;
+    padding: 1.2rem;
 }
 
 main article {
@@ -46,7 +46,7 @@ main article {
 main section h2 {
     text-align: center;
     line-height: normal;
-    margin-bottom: 5px;
+    margin-bottom: .8rem;
 }
 
 main section p {
@@ -125,8 +125,13 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding: 10px;
-    background-color: #333;
+    margin-top: -10rem;
+    padding: 6rem 2rem 3rem;
+    clip-path: polygon(0 19%, 100% 0, 100% 100%, 0% 100%);
+    background-image: linear-gradient(to right bottom,
+            rgba(0, 48, 80, 0.925),
+            rgba(0, 30, 49, 0.925)),
+        url('../assets/virgem-maria-capela.jpg');
     color: #c9c9c9;
 }
 
