@@ -20,7 +20,7 @@ header {
     background-image: linear-gradient(to right bottom,
             rgba(0, 81, 255, 0.8),
             rgba(15, 116, 248, 0.9)),
-        url('../assets/matriz-nsp.jpg');
+        url('../assets/foto/matriz-nsp.jpg');
     background-size: cover;
     background-position: top;
     position: relative;
@@ -63,7 +63,7 @@ main section.prom {
     background-image: linear-gradient(to right bottom,
             rgba(0, 81, 255, 0.8),
             rgba(15, 116, 248, 0.9)),
-        url('../assets/virgem-maria-capela.jpg');
+        url('../assets/foto/virgem-maria-capela.jpg');
     background-size: cover;
     background-position: right top;
     color: white;
@@ -131,7 +131,7 @@ footer {
     background-image: linear-gradient(to right bottom,
             rgba(0, 48, 80, 0.925),
             rgba(0, 30, 49, 0.925)),
-        url('../assets/capela-nsf.jpg');
+        url('../assets/foto/capela-nsf.jpg');
     background-size: cover;
     background-position: center top;
     color: #c9c9c9;
