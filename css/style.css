@@ -154,6 +154,8 @@ footer a {
     }
 
     footer .coluna1 {
+        width: 50%; 
+        text-align: end;
         padding-right: 40px;
         border-right: 1px solid white;
     }
