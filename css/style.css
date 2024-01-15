@@ -159,7 +159,7 @@ footer {
 .container-videos {
     display: flex;
     flex-wrap: wrap;
-    gap: 7px;
+    gap: 10px;
 }
 
 footer h2 {
