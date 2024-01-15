@@ -61,7 +61,6 @@ main section.prom {
     height: 380px;
     clip-path: polygon(0 19%, 100% 0%, 100% 80%, 0% 100%);
     background-size: cover;
-    background-position: right top;
     color: white;
 }
 
@@ -78,7 +77,15 @@ main section.prom#prom-2 {
             rgba(0, 81, 255, 0.8),
             rgba(15, 116, 248, 0.9)),
         url('../assets/foto/virgem-maria-capela.jpg');
-        background-position: left  center;
+        background-position: left center;
+}
+
+main section.prom#prom-3 {
+    background-image: linear-gradient(to right bottom,
+            rgba(0, 81, 255, 0.8),
+            rgba(15, 116, 248, 0.9)),
+        url('../assets/foto/ns-gracas.jpg');
+        background-position: center center;
 }
 
 main section.prom q {
@@ -152,6 +159,7 @@ footer {
 .container-videos {
     display: flex;
     flex-wrap: wrap;
+    gap: 7px;
 }
 
 footer h2 {
